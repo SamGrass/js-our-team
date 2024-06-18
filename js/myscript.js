@@ -31,5 +31,13 @@ const team = [
         "img": 'barbara-ramos-graphic-designer.jpg'
     }
 ]
-// stampo le informazioni in console
+
 // creo un ciclo per estrarre le informazioni
+ for (let i = 0; i < team.length; i++) {
+    let elementTeam = team[i];
+    // estrapolo i dati degli oggetti
+    let nameTeam = elementTeam.name;
+    let roleTeam = elementTeam.role;
+    let imgTeam = elementTeam.img;
+    console.log(nameTeam, roleTeam, imgTeam);
+ }
