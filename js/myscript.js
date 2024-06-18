@@ -45,11 +45,11 @@ const team = [
 
     let cardTeam = 
                     `<div class="col">
-                        <div>
+                        <div class="container-img">
                             <img src="img/${imgTeam}" alt="${nameTeam}">
                         </div>
-                        <div>${nameTeam}</div>
-                        <div>${roleTeam}</div>
+                        <div class="name m-1">${nameTeam}</div>
+                        <div class="role m-1">${roleTeam}</div>
                     </div>`
 
     containerTeam.innerHTML += cardTeam

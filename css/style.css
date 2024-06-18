@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.m-1 {
+    margin: 0.5rem 0;
+}
+
+/* regole main */
+main {
+    background-color: rgb(219, 219, 219);
+    padding: 3rem 0;
+}
+.container {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+
+/* regole cards */
+.col {
+    width: calc(100% / 3 - 3rem);
+    background-color: #fff;
+}
+.container-img img {
+    max-width: 100%;
+    object-fit: contain;
+}
+.name {
+    font-size: 1.3rem;
+}
+.role {
+    font-size: 0.9rem;
+    color: #2c2b2b9f;
+}
